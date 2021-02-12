@@ -1,0 +1,66 @@
+
+
+#logo {
+  margin-top:27px;
+  margin-left:29px;
+}
+.aparent { display: flex;
+    width:65%;
+    flex-direction: column;
+  height: 100%; } 
+  .ht {
+      color: #424242;
+      font-family: Google Sans;
+      font-size: 2.25rem;
+      font-weight: 400;
+      letter-spacing: .0175rem;
+      line-height: 2.75rem;
+      text-align: left;
+      margin-left: 29px
+  }
+  
+  .news{
+      font-family: Google Sans;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 32px;
+      color: #424242;
+      margin-bottom: 24px;
+      margin-top: -8px;
+  }
+  
+  .image{
+  height:auto;
+  width: 100%;
+  }
+  .article p {    font-family: Roboto;
+      font-size: 16px;
+      line-height: 30px;
+      color: #424242;
+  }
+  
+  #post-content{
+    display: flex;
+    
+    justify-content: center;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    
+    
+    .aparent { display: flex;
+    width:95%;
+    flex-direction: column;
+  height: 100%; } 
+  
+  }
+
+  @media only screen and (max-width: 700px) {
+
+
+     #logo {
+       margin-left: 16px;
+     }
+
+
+  }
