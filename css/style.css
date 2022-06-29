@@ -243,6 +243,14 @@ margin-bottom: 69px;
   background-color: #f50057;
   width: 95%;
 }
+.skill_progress_dart{
+  border-radius: 50px;
+
+  height: 4px;
+  margin: 0px;
+  background-color: #f50057;
+  width: 88%;
+}
 .pushUpBtn {
   font-family: 'Courier New', Courier, monospace;
   padding: 12px 24px;
